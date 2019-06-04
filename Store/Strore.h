@@ -7,7 +7,7 @@
 
 using namespace std;
 
-class Person {
+class Store {
     public:
         string getStoreName();
         string getStoreCallNumber();

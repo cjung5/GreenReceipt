@@ -1,7 +1,8 @@
 // Changsoo Jung
-// Store.h
+// Store.cpp
 #include <iostream>
 #include "Store.h"
+#include "Item.h"
 
 using namespace std;
 
