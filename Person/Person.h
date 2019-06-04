@@ -9,9 +9,9 @@ using namespace std;
 
 class Person {
     public:
-        getFirstName();
-        getLastName();
-        getFullName();
+        string getFirstName();
+        stirng getLastName();
+        string getFullName();
     private:
         string firstName;
         string lastName;

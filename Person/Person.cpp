@@ -5,12 +5,12 @@
 
 using namespace std;
 
-Person::getFirstName() {
+string Person::getFirstName() {
     return firstName;
 }
-Person::getLastName() {
+string Person::getLastName() {
     return lastName;
 }
-Person::getFullName() {
+string Person::getFullName() {
     return firstName + lastName;
 }
