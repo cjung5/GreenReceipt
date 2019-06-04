@@ -10,7 +10,7 @@ using namespace std;
 class Person {
     public:
         string getFirstName();
-        stirng getLastName();
+        string getLastName();
         string getFullName();
     private:
         string firstName;

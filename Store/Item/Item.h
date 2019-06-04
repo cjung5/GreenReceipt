@@ -10,11 +10,11 @@ using namespace std;
 class Item {
     public:
         string getItemName();
-        stirng getAmounts();
-        string getPrice();
+        int getItemAmounts();
+        double getItemPrice();
     private:
         string itemName;
         int itemAmounts;
-        double price;
+        double itemPrice;
 };
 #endif

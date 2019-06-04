@@ -27,5 +27,5 @@ string Payment::getDate() {
     return to_string(currentMonth) + "/" + to_string(currentDay) + "/" + to_string(currentYear);
 }
 string Payment::getTime() {
-    return to_string(getCurrentHour) + " : " + to_string(currentMinute);
+    return to_string(currentHour) + " : " + to_string(currentMinute);
 }

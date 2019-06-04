@@ -4,6 +4,7 @@
 #define STORE_H
 
 #include<iostream>
+#include "Item/Item.h"
 
 using namespace std;
 

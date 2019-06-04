@@ -6,11 +6,11 @@
 using namespace std;
 
 string Item::getItemName() {
-    return itemMName;
+    return itemName;
 }
-int Item::getAmounts() {
-    return itemAmount;
+int Item::getItemAmounts() {
+    return itemAmounts;
 }
 double Item::getItemPrice() {
-    return itemPice;
+    return itemPrice;
 }

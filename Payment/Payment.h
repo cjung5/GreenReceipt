@@ -3,7 +3,10 @@
 #ifndef PAYMENT_H
 #define PAYMENT_H
 
-#include<iostream>
+#include <iostream>
+#include "../Store/Store.h"
+#include "../Store/Item/Item.h"
+#include "../Person/Person.h"
 
 using namespace std;
 
